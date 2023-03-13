@@ -1,7 +1,9 @@
+@import "button.css";
+@import "sidebar.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "./button.css";
 
 .flex::before,
 .flex::after {
