@@ -54,7 +54,7 @@ export default function Topbar() {
                             Settings
                         </a>
                         <a
-                            href="sign_in.html"
+                            href={route("logout")}
                             className="transition-all hover:bg-sky-100 p-4"
                         >
                             Sign Out
